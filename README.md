@@ -19,3 +19,9 @@ nvm use
 ```bash
 npm run dev
 ```
+
+## Deploy new changes to production
+
+```bash
+npm run deploy
+```
