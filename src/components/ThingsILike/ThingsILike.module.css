@@ -1,0 +1,24 @@
+.container {
+  margin-top: 40px;
+
+  h2 {
+    margin-bottom: 30px;
+  }
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  .icon {
+    color: var(--primary);
+    font-size: 30px;
+  }
+}
