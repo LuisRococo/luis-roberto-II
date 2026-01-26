@@ -1,0 +1,37 @@
+.header {
+  background-color: var(--primary);
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-image: url("../../assets/images/red-bg.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .avatar {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: solid white 7px;
+    margin-bottom: 20px;
+  }
+
+  .name {
+    font-size: var(--fs-xl);
+    margin: 0;
+    padding: 0;
+  }
+
+  .career {
+    font-size: var(--fs-md);
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+  }
+}
