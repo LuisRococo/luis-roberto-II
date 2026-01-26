@@ -3,6 +3,7 @@ import styles from "./App.module.css";
 import AboutMe from "./components/AboutMe/AboutMe";
 import SocialsCard from "./components/SocialsCard/SocialsCard";
 import ThingsILike from "./components/ThingsILike/ThingsILike";
+import ExperienceSection from "./components/ExperienceSection/ExperienceSection";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <div className={styles["grid-right-col"]}>
             <AboutMe />
             <ThingsILike />
+            <ExperienceSection />
           </div>
         </div>
       </div>

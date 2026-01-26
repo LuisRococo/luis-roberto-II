@@ -1,0 +1,52 @@
+.container {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+
+  h2 {
+    margin-bottom: 15px;
+  }
+}
+
+.motivational-img {
+  width: 100%;
+  border-radius: 16px;
+}
+
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.item {
+  .date-range {
+    font-size: var(--fs-sm);
+    margin-bottom: 4px;
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 14px;
+    background-color: var(--bg-2);
+    padding: 10px;
+  }
+
+  .img {
+    width: 65px;
+    height: 65px;
+    border-radius: 14px;
+  }
+
+  .company {
+    color: var(--text-strong);
+    font-weight: bold;
+  }
+
+  .position {
+    font-size: var(--fs-base);
+  }
+}
