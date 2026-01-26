@@ -1,0 +1,17 @@
+.card {
+  border: 1px solid var(--subtle);
+  border-radius: 14px;
+  padding: 30px;
+
+  h2 {
+    text-align: center;
+  }
+
+  .icons-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    margin-top: 16px;
+  }
+}

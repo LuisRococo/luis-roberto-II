@@ -1,6 +1,7 @@
 import Header from "./components/Header/Header";
 import styles from "./App.module.css";
 import AboutMe from "./components/AboutMe/AboutMe";
+import SocialsCard from "./components/SocialsCard/SocialsCard";
 
 function App() {
   return (
@@ -9,7 +10,9 @@ function App() {
 
       <div className={`container ${styles["main-content"]}`}>
         <div className={styles["grid-content"]}>
-          <div className={styles["grid-left-col"]}>hola</div>
+          <div className={styles["grid-left-col"]}>
+            <SocialsCard />
+          </div>
           <div className={styles["grid-right-col"]}>
             <AboutMe />
           </div>
