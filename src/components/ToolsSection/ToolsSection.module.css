@@ -1,0 +1,34 @@
+.header {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.tools-cont {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+
+  .icon-cont {
+    background-color: #e2e2e2;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icon {
+    font-size: 40px;
+    color: #727272;
+  }
+
+  p {
+    font-size: var(--fs-sm);
+    text-align: center;
+    font-style: italic;
+    margin-top: 5px;
+  }
+}

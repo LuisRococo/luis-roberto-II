@@ -4,6 +4,7 @@ import AboutMe from "./components/AboutMe/AboutMe";
 import SocialsCard from "./components/SocialsCard/SocialsCard";
 import ThingsILike from "./components/ThingsILike/ThingsILike";
 import ExperienceSection from "./components/ExperienceSection/ExperienceSection";
+import ToolsSection from "./components/ToolsSection/ToolsSection";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <AboutMe />
             <ThingsILike />
             <ExperienceSection />
+            <ToolsSection />
           </div>
         </div>
       </div>
