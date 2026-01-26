@@ -3,10 +3,6 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -17,7 +13,7 @@
   --primary: #e11616;
   --bg-1: #ffffff;
   --bg-2: #ffe5e5;
-  --text: #6b6b6b;
+  --text: #4f4f4f;
   --test-strong: #191919;
 
   --fs-sm: 0.8rem;
@@ -33,10 +29,11 @@ body {
   min-width: 100vw;
   min-height: 100vh;
   background-color: var(--bg-1);
+  color: var(--text);
 }
 
 .container {
-  padding: 0 7.5rem;
+  padding: 0 12rem;
 }
 
 /* Responsivo: Si la pantalla es pequeña, 120px es mucho. Bajamos el margen. */
@@ -44,4 +41,23 @@ body {
   .container {
     padding: 0 1.5rem; /* Margen de 24px en móviles */
   }
+}
+
+h1,
+h2,
+h4,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: var(--fs-md);
+}
+
+h2 {
+  font-size: var(--fs-lg);
 }
