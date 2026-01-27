@@ -38,9 +38,11 @@ body {
 
 .container {
   padding: 0 12rem;
-  /* max-width: 1300px;
+
+  /* Adds max size to the container for really big screens */
+  max-width: 1300px;
   margin-right: auto;
-  margin-left: auto; */
+  margin-left: auto;
 }
 
 @media (max-width: 1600px) {
