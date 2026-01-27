@@ -6,9 +6,8 @@ const AboutMe = () => {
       <h2 className={styles.header}>About me</h2>
       <div className={styles.content}>
         <p>
-          I am a software Engineer that finds peace with good friends and living
-          the life. I think deep connections with the people we care is really
-          important
+          I am a software Engineer that finds peace being with good friends. I
+          think deep connections with the people we care is really important.
         </p>
         <p>I love finding solutions to problems through code.</p>
         <p>

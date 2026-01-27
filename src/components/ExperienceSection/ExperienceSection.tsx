@@ -1,7 +1,7 @@
 import experience from "../../data/experience";
 import styles from "./Experience.module.css";
 import ExperienceItem from "./ExperienceItem";
-import joanOfArcPhraseImg from "../../assets/images/joan_of_arc_phrase_3.jpg";
+import CodingFunImg from "../../assets/images/coding-fun.webp";
 
 const ExperienceSection = () => {
   return (
@@ -18,7 +18,7 @@ const ExperienceSection = () => {
 
       <img
         className={styles["motivational-img"]}
-        src={joanOfArcPhraseImg}
+        src={CodingFunImg}
         alt="Saint Joan Of Arc Phrase"
       />
     </div>
