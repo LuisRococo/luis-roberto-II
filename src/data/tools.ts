@@ -4,6 +4,8 @@ import { SiTypescript } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io5";
 import { GrMysql } from "react-icons/gr";
 import { VscVscode } from "react-icons/vsc";
+import { FaFlutter } from "react-icons/fa6";
+import { TbBrandReactNative } from "react-icons/tb";
 
 
 export interface ITool {
@@ -18,7 +20,9 @@ export const tools: ITool[] = [
     {name: "NodeJS", icon: FaNodeJs},
     {name: "Docker", icon: FaDocker},
     {name: "React", icon: FaReact},
+    {name: "React Native", icon: TbBrandReactNative},
     {name: "MySQL", icon: GrMysql},
     {name: "Github / Git", icon: FaGithub},
     {name: "VS Code", icon: VscVscode},
+    {name: "Flutter", icon: FaFlutter},
 ];

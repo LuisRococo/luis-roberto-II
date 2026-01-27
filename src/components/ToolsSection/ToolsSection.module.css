@@ -10,6 +10,13 @@
   flex-wrap: wrap;
   gap: 15px;
 
+  .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60px;
+  }
+
   .icon-cont {
     background-color: #e2e2e2;
     border-radius: 50%;
