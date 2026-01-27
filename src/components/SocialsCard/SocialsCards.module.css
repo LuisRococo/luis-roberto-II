@@ -15,3 +15,10 @@
     margin-top: 16px;
   }
 }
+
+/* --mq-join-columns */
+@media (max-width: 1000px) {
+  .card {
+    border: none;
+  }
+}

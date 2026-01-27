@@ -24,11 +24,36 @@
     flex-direction: column;
     gap: 20px; */
   }
-}
 
-@media (max-width: 768px) {
-  .colIzquierda,
-  .colDerecha {
-    grid-column: span 12;
+  @media (max-width: 768px) {
+    gap: 20px;
+
+    .grid-left-col,
+    .grid-right-col {
+      grid-column: span 12;
+    }
+  }
+
+  @media (max-width: 1400px) {
+    .grid-left-col {
+      grid-column: span 5;
+    }
+
+    .grid-right-col {
+      grid-column: span 7;
+    }
+  }
+
+  /* --mq-join-columns */
+  @media (max-width: 1000px) {
+    .grid-left-col {
+      grid-column: span 12;
+      order: 2;
+    }
+
+    .grid-right-col {
+      grid-column: span 12;
+      order: 1;
+    }
   }
 }

@@ -1,11 +1,29 @@
 .container {
   margin-top: 40px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(12, 1fr);
   gap: 30px;
 
   h2 {
     margin-bottom: 15px;
+  }
+
+  .left-side {
+    grid-column: span 6;
+  }
+
+  .right-side {
+    grid-column: span 6;
+  }
+
+  @media (max-width: 1300px) {
+    .left-side {
+      grid-column: span 12;
+    }
+
+    .right-side {
+      grid-column: span 12;
+    }
   }
 }
 

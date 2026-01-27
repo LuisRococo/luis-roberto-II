@@ -24,6 +24,8 @@
   --fs-lg: 1.563rem;
   --fs-xl: 1.953rem;
   --fs-xxl: 2.441rem;
+
+  --mq-join-columns: 1000px;
 }
 
 body {
@@ -36,12 +38,32 @@ body {
 
 .container {
   padding: 0 12rem;
+  /* max-width: 1300px;
+  margin-right: auto;
+  margin-left: auto; */
 }
 
-/* Responsivo: Si la pantalla es pequeña, 120px es mucho. Bajamos el margen. */
+@media (max-width: 1600px) {
+  .container {
+    padding: 0 7rem;
+  }
+}
+
+@media (max-width: 1400px) {
+  .container {
+    padding: 0 6rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 4rem;
+  }
+}
+
 @media (max-width: 768px) {
   .container {
-    padding: 0 1.5rem; /* Margen de 24px en móviles */
+    padding: 0 2rem;
   }
 }
 

@@ -94,3 +94,10 @@
 .hidden {
   display: none;
 }
+
+/* --mq-join-columns */
+@media (max-width: 1000px) {
+  .player {
+    border: none;
+  }
+}
