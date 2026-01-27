@@ -5,6 +5,7 @@ import SocialsCard from "./components/SocialsCard/SocialsCard";
 import ThingsILike from "./components/ThingsILike/ThingsILike";
 import ExperienceSection from "./components/ExperienceSection/ExperienceSection";
 import ToolsSection from "./components/ToolsSection/ToolsSection";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
           </div>
         </div>
       </div>
+
+      <Footer />
     </>
   );
 }
