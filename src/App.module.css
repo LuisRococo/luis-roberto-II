@@ -9,10 +9,20 @@
 
   .grid-left-col {
     grid-column: span 4;
+
+    /*TODO Refactorize page so we can use this style */
+    /* display: flex;
+    flex-direction: column;
+    gap: 20px; */
   }
 
   .grid-right-col {
     grid-column: span 8;
+
+    /*TODO Refactorize page so we can use this style */
+    /* display: flex;
+    flex-direction: column;
+    gap: 20px; */
   }
 }
 

@@ -6,6 +6,7 @@ import ThingsILike from "./components/ThingsILike/ThingsILike";
 import ExperienceSection from "./components/ExperienceSection/ExperienceSection";
 import ToolsSection from "./components/ToolsSection/ToolsSection";
 import Footer from "./components/Footer/Footer";
+import MusicPlayer from "./components/MusicPlayer/MusicPlayer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <div className={styles["grid-content"]}>
           <div className={styles["grid-left-col"]}>
             <SocialsCard />
+            <MusicPlayer />
           </div>
           <div className={styles["grid-right-col"]}>
             <AboutMe />

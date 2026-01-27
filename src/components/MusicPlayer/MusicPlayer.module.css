@@ -1,0 +1,96 @@
+/* TODO Try to find a way to add the shadows and old style to the player */
+/* TODO That kinda reminds me of the style that time had */
+
+.player {
+  border-radius: 20px;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: fit-content;
+  background-color: white;
+  border: 1px solid var(--subtle);
+  border-radius: 14px;
+  margin-top: 40px;
+}
+
+.header {
+  text-align: center;
+  .title {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: black;
+  }
+
+  .artist {
+    font-size: 1.1rem;
+    color: black;
+    font-weight: 300;
+  }
+}
+
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+
+  img {
+    border-radius: 100%;
+    width: 200px;
+    object-fit: cover;
+    object-position: center;
+    transition: opacity 0.2s;
+  }
+}
+
+.control-cont {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+  min-width: 100px;
+  margin: 0 auto;
+  color: black;
+  align-items: center;
+
+  .control-btn {
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+  .pause-btn {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.4rem;
+    cursor: pointer;
+  }
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.rotate-anim {
+  animation: rotation 20s infinite linear;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.hidden {
+  display: none;
+}
