@@ -67,9 +67,11 @@
     transition: all 0.2s linear;
   }
 
-  .control-btn:hover {
-    background-color: black;
-    color: white;
+  @media (hover: hover) {
+    .control-btn:hover {
+      background-color: black;
+      color: white;
+    }
   }
 
   .pause-btn {
