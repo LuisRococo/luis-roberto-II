@@ -58,6 +58,18 @@
   .control-btn {
     font-size: 2rem;
     cursor: pointer;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s linear;
+  }
+
+  .control-btn:hover {
+    background-color: black;
+    color: white;
   }
 
   .pause-btn {
@@ -71,6 +83,14 @@
     color: white;
     font-size: 1.4rem;
     cursor: pointer;
+    border: solid 1px white;
+    transition: all 0.2s linear;
+  }
+
+  .pause-btn:hover {
+    background-color: white;
+    border: solid 1px black;
+    color: black;
   }
 }
 
