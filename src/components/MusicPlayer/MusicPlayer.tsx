@@ -54,8 +54,8 @@ const MusicPlayer = () => {
       />
 
       <div className={styles.header}>
-        <p className={styles.title}>This Girl</p>
-        <p className={styles.artist}>Kungs</p>
+        <p className={styles.title}>{songs[currentTrackIndex].songName}</p>
+        <p className={styles.artist}>{songs[currentTrackIndex].artist}</p>
       </div>
 
       <div className={styles["img-wrapper"]}>
