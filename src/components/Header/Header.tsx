@@ -1,5 +1,5 @@
 import styles from "./Header.module.css";
-import avatarImg from "../../assets/images/profile-img.jpg";
+import avatarImg from "../../assets/images/profile-img-old-improved.jpeg";
 
 const Header = () => {
   return (
