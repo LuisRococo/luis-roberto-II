@@ -10,7 +10,7 @@ const ThingsILike = () => {
       <div className={styles.list}>
         {likes.map((item) => {
           return (
-            <div className={styles["list-item"]}>
+            <div key={item} className={styles["list-item"]}>
               <FaHeart className={styles.icon} />
               <p>{item}</p>
             </div>

@@ -9,7 +9,7 @@ const ToolsSection = () => {
       <div className={styles["tools-cont"]}>
         {tools.map((tool) => {
           return (
-            <div className={styles.item}>
+            <div key={tool.name} className={styles.item}>
               <div className={styles["icon-cont"]}>
                 <tool.icon className={styles.icon} />
               </div>

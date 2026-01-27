@@ -8,7 +8,11 @@ const SocialsCard = () => {
       <h2>Socials</h2>
       <div className={styles["icons-cont"]}>
         {socials.map((social) => (
-          <SocialIcon style={{ width: 50, height: 50 }} url={social.url} />
+          <SocialIcon
+            key={social.url}
+            style={{ width: 50, height: 50 }}
+            url={social.url}
+          />
         ))}
       </div>
     </div>

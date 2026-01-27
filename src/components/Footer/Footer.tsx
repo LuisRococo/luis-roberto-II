@@ -5,19 +5,21 @@ import { socials } from "../../data/socials";
 const Footer = () => {
   return (
     <footer>
-      <div className={styles["phrase-cont"]}>
-        <p className={styles.phrase}>
-          "Be who you were created to be, and you will set the world on fire"
-        </p>
-        <p className={styles.author}>St. Catherine of Siena</p>
-      </div>
+      <div className="container">
+        <div className={styles["phrase-cont"]}>
+          <p className={styles.phrase}>
+            "Be who you were created to be, and you will set the world on fire"
+          </p>
+          <p className={styles.author}>St. Catherine of Siena</p>
+        </div>
 
-      <div className={styles.socials}>
-        {socials.map((social) => (
-          <div className={styles["icon-cont"]}>
-            <SocialIcon url={social.url} />
-          </div>
-        ))}
+        <div className={styles.socials}>
+          {socials.map((social) => (
+            <div key={social.url} className={styles["icon-cont"]}>
+              <SocialIcon url={social.url} />
+            </div>
+          ))}
+        </div>
       </div>
     </footer>
   );
