@@ -2,7 +2,8 @@
   margin-top: 40px;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  gap: 30px;
+  column-gap: 30px;
+  row-gap: 30px;
 
   h2 {
     margin-bottom: 15px;
@@ -17,6 +18,8 @@
   }
 
   @media (max-width: 1300px) {
+    column-gap: 0;
+
     .left-side {
       grid-column: span 12;
     }
